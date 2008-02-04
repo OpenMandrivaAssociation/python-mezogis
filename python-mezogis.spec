@@ -1,7 +1,7 @@
 Name: python-mezogis
 Version: 0.1.5
 Release: %mkrel 1
-Summary: mezoGIS is a GIS application, a graphical interface to query and analyse spatial data.
+Summary: mezoGIS is a GIS application, a graphical interface to query and analyse spatial data
 Source: http://initd.org/svn/psycopg/geotypes/releases/mezogis-%{version}.tar.gz 
 URL: http://www.mezogis.org
 License: GPL
