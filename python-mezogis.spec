@@ -13,7 +13,11 @@ Requires: python-psycopg
 Requires: pygtk2.0
 
 %description
-mezoGIS is a GIS application, a graphical interface to query and analyse spatial data. mezoGIS does not store or compute data directly, but operates external PostGIS databases. The goal of mezoGIS is to provide a tool for geo-spatial analysis with PostGIS, through on-the-fly SQL queries as well as through larger, external plugin scripts.
+mezoGIS is a GIS application, a graphical interface to query and analyse
+spatial data. mezoGIS does not store or compute data directly, but operates
+external PostGIS databases. The goal of mezoGIS is to provide a tool for geo-
+spatial analysis with PostGIS, through on-the-fly SQL queries as well as
+through larger, external plugin scripts.
 
 %prep
 %setup -q -n mezogis-%{version} 
