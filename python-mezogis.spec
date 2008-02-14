@@ -6,6 +6,7 @@ Source: http://initd.org/svn/psycopg/geotypes/releases/mezogis-%{version}.tar.gz
 URL: http://www.mezogis.org
 License: GPL
 Group: Development/Python
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 %py_requires -d
 Provides: mezogis = %{version}-%{release}
 Requires: python-geotypes
