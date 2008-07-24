@@ -1,6 +1,6 @@
 Name: python-mezogis
 Version: 0.1.5
-Release: %mkrel 2
+Release: %mkrel 4
 Summary: Graphical interface to query and analyse spatial data
 Source: http://initd.org/svn/psycopg/geotypes/releases/mezogis-%{version}.tar.gz 
 URL: http://www.mezogis.org
