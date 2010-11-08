@@ -1,13 +1,13 @@
 Name: python-mezogis
 Version: 0.1.5
-Release: %mkrel 7
+Release: %mkrel 8
 Summary: Graphical interface to query and analyse spatial data
 Source: http://initd.org/svn/psycopg/geotypes/releases/mezogis-%{version}.tar.gz 
 URL: http://www.mezogis.org
 License: GPL
 Group: Development/Python
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-%py_requires -d
+BuildRequires: python-devel
 Provides: mezogis = %{version}-%{release}
 Requires: python-geotypes
 Requires: python-psycopg
@@ -27,6 +27,8 @@ through larger, external plugin scripts.
 rm -rf %buildroot
 python setup.py install --root=%buildroot
 
+rm -f %buildroot%_datadir/locale/messages.pot
+
 %clean
 rm -rf %buildroot
 
@@ -37,5 +39,3 @@ rm -rf %buildroot
 %_datadir/mezogis
 %_datadir/pixmaps/*
 %py_puresitedir/*
-%exclude %_datadir/locale/messages.pot
-
