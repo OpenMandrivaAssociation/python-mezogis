@@ -39,3 +39,39 @@ rm -rf %buildroot
 %_datadir/mezogis
 %_datadir/pixmaps/*
 %py_puresitedir/*
+
+
+%changelog
+* Mon Nov 08 2010 Funda Wang <fwang@mandriva.org> 0.1.5-8mdv2011.0
++ Revision: 594928
+- rebuild for py2.7
+
+* Tue Sep 15 2009 Thierry Vignaud <tv@mandriva.org> 0.1.5-7mdv2010.0
++ Revision: 442314
+- rebuild
+
+* Sat Jan 03 2009 Funda Wang <fwang@mandriva.org> 0.1.5-6mdv2009.1
++ Revision: 323794
+- rebuild
+
+* Fri Aug 01 2008 Thierry Vignaud <tv@mandriva.org> 0.1.5-5mdv2009.0
++ Revision: 259705
+- rebuild
+
+* Fri Jul 25 2008 Thierry Vignaud <tv@mandriva.org> 0.1.5-4mdv2009.0
++ Revision: 247513
+- rebuild
+
+* Thu Feb 14 2008 Thierry Vignaud <tv@mandriva.org> 0.1.5-2mdv2008.1
++ Revision: 168508
+- rebuild
+- fix summary
+- fix no-buildroot-tag
+- fix description-line-too-long
+- fix summary-ended-with-dot
+
+* Tue Dec 18 2007 Helio Chissini de Castro <helio@mandriva.com> 0.1.5-1mdv2008.1
++ Revision: 132723
+- import python-mezogis
+
+
