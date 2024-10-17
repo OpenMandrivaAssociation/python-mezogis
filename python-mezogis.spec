@@ -3,7 +3,7 @@ Version: 0.1.5
 Release: 9
 Summary: Graphical interface to query and analyse spatial data
 Source: http://initd.org/svn/psycopg/geotypes/releases/mezogis-%{version}.tar.gz 
-URL: http://www.mezogis.org
+URL: https://www.mezogis.org
 License: GPL
 Group: Development/Python
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
